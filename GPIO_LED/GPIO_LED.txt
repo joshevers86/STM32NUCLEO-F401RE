@@ -1,0 +1,42 @@
+Configuration	GPIO_LED
+STM32CubeMX 	4.16.0
+Date	08/03/2016
+MCU	STM32F401RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+21	PA5	GPIO_Output	LED
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : GPIO_LED
+Project Folder : /home/jose/workspaceCortex/GPIO_LED
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Add necessary library files as reference in the toolchain project configuration file
+Generate peripheral initialization as a pair of '.c/.h' files per peripherals : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

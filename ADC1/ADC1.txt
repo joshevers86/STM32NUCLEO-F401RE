@@ -1,0 +1,43 @@
+Configuration	ADC1
+STM32CubeMX 	4.16.0
+Date	08/05/2016
+MCU	STM32F401RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA0-WKUP	ADC1_IN0	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ADC1
+Project Folder : /home/jose/workspaceCortex/ADC1
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripherals : Yes
+Backup previously generated files when re-generating : Yes
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
